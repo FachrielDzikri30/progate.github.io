@@ -50,8 +50,8 @@ a {
 }
 
 .fa {
-    margin-right: 5px;
-    display:none;color: white;
+    display:none;
+    color: white;
     float: right;
     font-size: 30px;
     padding: 25px 0;
