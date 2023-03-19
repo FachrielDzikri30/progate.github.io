@@ -1,0 +1,58 @@
+/*buat Tablet*/
+@media all and (max-width:1000px) {
+    .project_item {
+        width:100%;
+    }
+    .menu {
+        font-size: 18px;
+    }
+    .menu2 {
+        padding: 0;
+    }
+    .email, .pesan, .contact_submit {
+        width: 100%;
+    }
+}
+
+/*buat smartphone*/
+@media all and (max-width:670px) {
+
+    .copy-container h1{
+        font-size: 50px;
+    }
+    .copy-container h2 {
+        font-size: 30px;
+    }
+    .project-item {
+        width: 100%;
+    }
+    .ken {
+        height: 200px;
+        width: 200px;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .fa {
+        margin-right: 5px;
+    }
+    .container h2{
+        font-size: 30px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    footer {
+        height: 100px;
+        text-align: justify;
+    }
+    .menu2 {
+        display: none;
+    }
+    .email, .pesan, .contact_submit {
+        width: 100%;
+    }
+}
