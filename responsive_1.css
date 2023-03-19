@@ -4,7 +4,7 @@
         width:100%;
     }
     .menu {
-        font-size: 15px;
+        display:none;
     }
     .menu2 {
         padding: 0;
