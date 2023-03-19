@@ -12,6 +12,9 @@
     .email, .pesan, .contact_submit {
         width: 100%;
     }
+    .menu-icon {
+        display:none;
+    }
 }
 
 /*buat smartphone*/
