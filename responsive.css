@@ -1,0 +1,98 @@
+/* for Tablet */
+@media (max-width:1000px) {
+    header {
+        gap: 20px;
+    }
+    #header-left {
+        font-size: 20px;
+    }
+    #header-right {
+        font-size: 14px;
+    }
+
+    #container-top h1{
+        font-size: 50px;
+    }
+    #container-top h2{
+        font-size: 30px;
+    }
+    #container-top img {
+        width: 200px;
+        height: 220px;
+    }
+
+    #container-aboutme h1{
+        font-size: 20px;
+    }
+    #container-aboutme p{
+        font-size: 14px;
+        padding-left:30px;
+        padding-right: 30px;
+        text-align: justify;
+    }
+
+    #container-project h1 {
+        font-size: 20px;
+    }
+    #projectImg {
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    .image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #container-contact h1 {
+        font-size: 20px;
+    }
+    #inputInfo input, textarea {
+        width: 275px;
+        font-size: 14px;
+    }
+    #inputInfo button {
+        font-size: 14px;
+    }
+
+    #footer-left {
+        font-size: 20px;
+    }
+    #footer-right {
+        font-size: 14px;
+    }
+}
+
+/* for Smartphone */
+
+@media (max-width:670px){
+    header {
+        flex-direction: column;
+        gap: 0px;
+    }
+    #header-right {
+        padding-left: 15px;
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+
+    #container-top h1 {
+        font-size: 50px;
+        letter-spacing: 0px;
+    }
+    #container-top h2{
+        font-size: 26px;
+    }
+
+    .image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    #footer-left {
+        padding-right: 0;
+    }
+    #footer-right {
+        font-size: 12px;
+    }
+}
